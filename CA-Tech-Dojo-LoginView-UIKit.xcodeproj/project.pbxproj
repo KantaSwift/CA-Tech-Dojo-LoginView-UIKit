@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		B2C3C20B2A10B0E000608318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C20A2A10B0E000608318 /* AppDelegate.swift */; };
 		B2C3C20D2A10B0E000608318 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C20C2A10B0E000608318 /* SceneDelegate.swift */; };
-		B2C3C20F2A10B0E000608318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C20E2A10B0E000608318 /* ViewController.swift */; };
-		B2C3C2122A10B0E000608318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3C2102A10B0E000608318 /* Main.storyboard */; };
+		B2C3C20F2A10B0E000608318 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C20E2A10B0E000608318 /* NextViewController.swift */; };
 		B2C3C2142A10B0E100608318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C3C2132A10B0E100608318 /* Assets.xcassets */; };
 		B2C3C2172A10B0E100608318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3C2152A10B0E100608318 /* LaunchScreen.storyboard */; };
 		B2C3C2222A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2212A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitTests.swift */; };
@@ -18,6 +17,19 @@
 		B2C3C22E2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C22D2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift */; };
 		B2C3C23C2A10B21500608318 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B2C3C23B2A10B21500608318 /* SnapKit */; };
 		B2C3C23F2A10B22900608318 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B2C3C23E2A10B22900608318 /* CombineCocoa */; };
+		B2C3C2482A10B3B000608318 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2472A10B3B000608318 /* String-Extension.swift */; };
+		B2C3C24A2A10B3C000608318 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2492A10B3C000608318 /* UIColor-Extension.swift */; };
+		B2C3C24C2A10B3FA00608318 /* UIColorDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C24B2A10B3FA00608318 /* UIColorDefinition.swift */; };
+		B2C3C24E2A10B40600608318 /* UIFontDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C24D2A10B40600608318 /* UIFontDefinition.swift */; };
+		B2C3C2502A10B41600608318 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C24F2A10B41500608318 /* CustomTextField.swift */; };
+		B2C3C2522A10B42000608318 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2512A10B42000608318 /* CustomButton.swift */; };
+		B2C3C2542A10B4A100608318 /* SelfProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2532A10B4A100608318 /* SelfProfile.swift */; };
+		B2C3C2562A10B4D500608318 /* SelfRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2552A10B4D500608318 /* SelfRepository.swift */; };
+		B2C3C2582A10B50500608318 /* SNSValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2572A10B50500608318 /* SNSValidator.swift */; };
+		B2C3C25A2A10B54B00608318 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2592A10B54B00608318 /* LoginViewController.swift */; };
+		B2C3C25C2A10B57D00608318 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C25B2A10B57D00608318 /* LoginViewModel.swift */; };
+		B2C3C25E2A10EAAE00608318 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C25D2A10EAAE00608318 /* ValidationError.swift */; };
+		B2C3C2602A10EAF900608318 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C25F2A10EAF900608318 /* ValidationResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +53,7 @@
 		B2C3C2072A10B0E000608318 /* CA-Tech-Dojo-LoginView-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CA-Tech-Dojo-LoginView-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3C20A2A10B0E000608318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C3C20C2A10B0E000608318 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2C3C20E2A10B0E000608318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2C3C2112A10B0E000608318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C3C20E2A10B0E000608318 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		B2C3C2132A10B0E100608318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C3C2162A10B0E100608318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C3C2182A10B0E100608318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +62,19 @@
 		B2C3C2272A10B0E100608318 /* CA-Tech-Dojo-LoginView-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CA-Tech-Dojo-LoginView-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3C22B2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA_Tech_Dojo_LoginView_UIKitUITests.swift; sourceTree = "<group>"; };
 		B2C3C22D2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2C3C2472A10B3B000608318 /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		B2C3C2492A10B3C000608318 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		B2C3C24B2A10B3FA00608318 /* UIColorDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorDefinition.swift; sourceTree = "<group>"; };
+		B2C3C24D2A10B40600608318 /* UIFontDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontDefinition.swift; sourceTree = "<group>"; };
+		B2C3C24F2A10B41500608318 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B2C3C2512A10B42000608318 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B2C3C2532A10B4A100608318 /* SelfProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfProfile.swift; sourceTree = "<group>"; };
+		B2C3C2552A10B4D500608318 /* SelfRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfRepository.swift; sourceTree = "<group>"; };
+		B2C3C2572A10B50500608318 /* SNSValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSValidator.swift; sourceTree = "<group>"; };
+		B2C3C2592A10B54B00608318 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2C3C25B2A10B57D00608318 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B2C3C25D2A10EAAE00608318 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		B2C3C25F2A10EAF900608318 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +127,15 @@
 		B2C3C2092A10B0E000608318 /* CA-Tech-Dojo-LoginView-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B2C3C2462A10B35500608318 /* Extensions */,
+				B2C3C2452A10B34D00608318 /* Views */,
+				B2C3C2442A10B34800608318 /* Repository */,
+				B2C3C2432A10B34200608318 /* Validator */,
+				B2C3C2422A10B33D00608318 /* Model */,
+				B2C3C2412A10B33800608318 /* ViewModel */,
+				B2C3C2402A10B32D00608318 /* Controllers */,
 				B2C3C20A2A10B0E000608318 /* AppDelegate.swift */,
 				B2C3C20C2A10B0E000608318 /* SceneDelegate.swift */,
-				B2C3C20E2A10B0E000608318 /* ViewController.swift */,
-				B2C3C2102A10B0E000608318 /* Main.storyboard */,
 				B2C3C2132A10B0E100608318 /* Assets.xcassets */,
 				B2C3C2152A10B0E100608318 /* LaunchScreen.storyboard */,
 				B2C3C2182A10B0E100608318 /* Info.plist */,
@@ -129,6 +158,69 @@
 				B2C3C22D2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "CA-Tech-Dojo-LoginView-UIKitUITests";
+			sourceTree = "<group>";
+		};
+		B2C3C2402A10B32D00608318 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C2592A10B54B00608318 /* LoginViewController.swift */,
+				B2C3C20E2A10B0E000608318 /* NextViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2C3C2412A10B33800608318 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C25B2A10B57D00608318 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2C3C2422A10B33D00608318 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C2532A10B4A100608318 /* SelfProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2C3C2432A10B34200608318 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C2572A10B50500608318 /* SNSValidator.swift */,
+				B2C3C25D2A10EAAE00608318 /* ValidationError.swift */,
+				B2C3C25F2A10EAF900608318 /* ValidationResult.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		B2C3C2442A10B34800608318 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C2552A10B4D500608318 /* SelfRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B2C3C2452A10B34D00608318 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C24B2A10B3FA00608318 /* UIColorDefinition.swift */,
+				B2C3C24D2A10B40600608318 /* UIFontDefinition.swift */,
+				B2C3C24F2A10B41500608318 /* CustomTextField.swift */,
+				B2C3C2512A10B42000608318 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2C3C2462A10B35500608318 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3C2472A10B3B000608318 /* String-Extension.swift */,
+				B2C3C2492A10B3C000608318 /* UIColor-Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +337,6 @@
 			files = (
 				B2C3C2172A10B0E100608318 /* LaunchScreen.storyboard in Resources */,
 				B2C3C2142A10B0E100608318 /* Assets.xcassets in Resources */,
-				B2C3C2122A10B0E000608318 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +361,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C3C20F2A10B0E000608318 /* ViewController.swift in Sources */,
+				B2C3C20F2A10B0E000608318 /* NextViewController.swift in Sources */,
+				B2C3C24A2A10B3C000608318 /* UIColor-Extension.swift in Sources */,
+				B2C3C2522A10B42000608318 /* CustomButton.swift in Sources */,
+				B2C3C2562A10B4D500608318 /* SelfRepository.swift in Sources */,
+				B2C3C24C2A10B3FA00608318 /* UIColorDefinition.swift in Sources */,
 				B2C3C20B2A10B0E000608318 /* AppDelegate.swift in Sources */,
+				B2C3C25C2A10B57D00608318 /* LoginViewModel.swift in Sources */,
+				B2C3C2542A10B4A100608318 /* SelfProfile.swift in Sources */,
+				B2C3C2502A10B41600608318 /* CustomTextField.swift in Sources */,
+				B2C3C2582A10B50500608318 /* SNSValidator.swift in Sources */,
+				B2C3C2482A10B3B000608318 /* String-Extension.swift in Sources */,
+				B2C3C2602A10EAF900608318 /* ValidationResult.swift in Sources */,
+				B2C3C25E2A10EAAE00608318 /* ValidationError.swift in Sources */,
+				B2C3C24E2A10B40600608318 /* UIFontDefinition.swift in Sources */,
+				B2C3C25A2A10B54B00608318 /* LoginViewController.swift in Sources */,
 				B2C3C20D2A10B0E000608318 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B2C3C2102A10B0E000608318 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2C3C2112A10B0E000608318 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B2C3C2152A10B0E100608318 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -454,7 +550,6 @@
 				INFOPLIST_FILE = "CA-Tech-Dojo-LoginView-UIKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +577,6 @@
 				INFOPLIST_FILE = "CA-Tech-Dojo-LoginView-UIKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
