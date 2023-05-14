@@ -16,6 +16,8 @@
 		B2C3C2222A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C2212A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitTests.swift */; };
 		B2C3C22C2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C22B2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITests.swift */; };
 		B2C3C22E2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C22D2A10B0E100608318 /* CA_Tech_Dojo_LoginView_UIKitUITestsLaunchTests.swift */; };
+		B2C3C23C2A10B21500608318 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B2C3C23B2A10B21500608318 /* SnapKit */; };
+		B2C3C23F2A10B22900608318 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B2C3C23E2A10B22900608318 /* CombineCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C3C23F2A10B22900608318 /* CombineCocoa in Frameworks */,
+				B2C3C23C2A10B21500608318 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = "CA-Tech-Dojo-LoginView-UIKit";
+			packageProductDependencies = (
+				B2C3C23B2A10B21500608318 /* SnapKit */,
+				B2C3C23E2A10B22900608318 /* CombineCocoa */,
+			);
 			productName = "CA-Tech-Dojo-LoginView-UIKit";
 			productReference = B2C3C2072A10B0E000608318 /* CA-Tech-Dojo-LoginView-UIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,10 @@
 				Base,
 			);
 			mainGroup = B2C3C1FE2A10B0E000608318;
+			packageReferences = (
+				B2C3C23A2A10B21500608318 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B2C3C23D2A10B22900608318 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = B2C3C2082A10B0E000608318 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +614,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2C3C23A2A10B21500608318 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B2C3C23D2A10B22900608318 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2C3C23B2A10B21500608318 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2C3C23A2A10B21500608318 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B2C3C23E2A10B22900608318 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2C3C23D2A10B22900608318 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2C3C1FF2A10B0E000608318 /* Project object */;
 }
